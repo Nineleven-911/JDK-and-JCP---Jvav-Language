@@ -1,23 +1,26 @@
 English Version
 ------------------------------------------------
-Jvav Decompiler
-javad.exe $YourFileLocation $GenerateFileName
+<>:Must be filled    []:Not Must be filled
+Jvav Decompiler jvavd <YourFileLocation> [GenerateFileName]
 Compile $YourFileLocation (Must be .java) to \filegen\$GenerateFileName (Be a .jvav)
 Attention:  $YourFileLocation $GenerateFileName with No "" Marks!
 e.g. jvavd.exe D:\Test.jvav Test
 
-Jvav Compiler (jvavc.exe)
+Jvav Compiler jvavc.exe
 Usage Method is same as Jvav Decompiler
 Attention: Compiler just change .jvav to Java Language
 
-addKeys.exe
+addKeys
 You open it only.
 
-orginal_jvavkeys.cfg
+orginal_jvavkeys
 If you damaged jvavkeys.cfg,Copy this to change jvavkeys.cfg!
 
-listMappingKeys.exe
+listMappingKeys
 List all the keys mapped.
+
+jvav.exe <FileLocation>
+Compile .jvav file and run with java!
 
 中文版
 ------------------------------------------------
@@ -39,3 +42,6 @@ orginal_jvavkeys.cfg
 
 listMappingKeys.exe
 列出映射表
+
+jvav.exe $文件路径
+编译 $文件路径 的文件并使用 java 执行。
