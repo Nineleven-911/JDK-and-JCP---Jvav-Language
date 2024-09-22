@@ -19,6 +19,8 @@ If you damaged jvavkeys.cfg,Copy this to change jvavkeys.cfg!
 listMappingKeys.exe
 List all the keys mapped.
 
+jvav.exe Compile .jvav file and run with java!v
+
 中文版
 ------------------------------------------------
 Jvav 反编译
@@ -39,3 +41,5 @@ orginal_jvavkeys.cfg
 
 listMappingKeys.exe
 列出映射表
+
+jvav.exe 文件路径编译文件路径 的文件并使用 java 执行。
